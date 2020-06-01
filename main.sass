@@ -1,0 +1,205 @@
+@font-face
+  font-family: Gilroy-SemiBold
+  src: url("fonts/gilroy-semibold.woff")
+  src: url("fonts/gilroy-semibold.woff2")
+  font-weight: 600
+  font-style: normal
+@font-face
+  font-family: Gilroy
+  src: url("fonts/gilroy-medium.woff")
+  src: url("fonts/gilroy-medium.woff2")
+  src: url("fonts/gilroy-medium.ttf")
+  font-weight: 500
+  font-style: normal
+
+$black: #000
+$accent-blue: #496ADC
+
+
+body
+  padding: 0
+  margin: 0
+  font-family: Gilroy
+
+h1
+  font-weight: 600
+  font-size: 48px
+  line-height: 110%
+
+.header
+  max-width: 1164px
+  margin-bottom: 25vh
+
+.top-menu
+  font-size: 18px
+  padding: 10.5vh 0
+  margin-bottom: 20vh
+  &_list
+    a
+      color: rgba(0, 0, 0, 0.6)
+      text-decoration: none
+  &_search
+    img
+      width: 23px
+      height: auto
+    a
+      text-decoration: none
+
+.page-desc
+  margin-top: 5vh
+  margin-bottom: 7vh
+  p
+    font-size: 24px
+    line-height: 32px
+    font-weight: 500
+    color: rgba(0, 0, 0, 0.6)
+
+.btn-catalog
+  width: 233px
+  height: 64px
+  border-radius: 8px
+  font-size: 18px
+  line-height: 47px
+
+.btn-work
+  width: 204px
+  height: 64px
+  border-radius: 8px
+  font-size: 18px
+  line-height: 47px
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08)
+.middle-block
+  background-color: #FFF8EE
+  padding-top: 32vh
+  &_title
+    margin-bottom: 10vh
+  p
+    font-size: 18px
+    line-height: 24px
+  .active
+    max-width: 233px
+    &:hover
+      color: $accent-blue
+      border-bottom: 2px solid $accent-blue
+  &_prof
+    margin-bottom: 23vh
+  &_step
+    font-size: 24px
+    font-weight: 600
+  &__position
+    max-width: 1144px
+    padding-left: 28px
+    margin-right: 8vh
+    margin-bottom: 18vh
+
+.video-block
+  background-image: url("image/video_preview.png")
+  background-size: cover
+  background-repeat: no-repeat
+  max-width: 1136px
+  height: 639px
+  margin-right: 7vh
+  margin-bottom: 34vh
+.feedback-block
+  padding-top: 32vh
+  margin: 0 auto
+  &_title
+    max-width: 698px
+    margin-bottom: 18vh
+    margin-right: 21vh
+  &_desc
+    font-size: 24px
+    line-height: 32px
+    margin-top: 6vh
+  &_bg
+    margin-top: 33vh
+.feedback-content
+  padding: 30px
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08)
+  border-radius: 16px
+  p
+    font-size: 24px
+    line-height: 30px
+
+
+.feedback-ava
+  margin-top: 6vh
+  margin-left: 6vh
+
+  &_name
+    font-size: 18px
+    font-weight: 600
+    margin-bottom: 0
+.benefits-block
+  background-color: $accent-blue
+  padding-bottom: 34vh
+  &_title
+    margin-top: 30vh
+    margin-bottom: 17vh
+    color: #FFF
+  &_protection
+    height: 280px
+    padding-left: 34vh
+    border-radius: 16px
+    background-color: #fff
+    margin-left: 46vh
+    margin-right: 31px
+    img
+      border-radius: 16px
+    .card-img-overlay
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      padding: 2rem
+    .card-title
+      max-width: 250px
+      font-size: 32px
+      line-height: 36px
+      font-weight: 600
+    .card-text
+      font-size: 18px
+  &_print
+    border-radius: 16px
+    background-color: #FAD192
+    height: 280px
+    padding-left: 66vh
+    img
+      border-radius: 16px
+    .card-img-overlay
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      padding: 2rem
+    .card-title
+      max-width: 250px
+      font-size: 32px
+      line-height: 36px
+      font-weight: 600
+    .card-text
+      font-size: 18px
+#slider
+  margin: 16vh auto
+  min-width: 0
+  max-width: 1136px
+.slider_title
+  margin-top: 32vh
+.slider-card
+  background-color: #fff
+  height: 364px
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08)
+  border-radius: 16px
+  &_desc
+    position: relative
+    padding-left: 20px
+  &_ava
+    width: 80px
+    border: 2px solid #FFF
+    border-radius: 50%
+    position: absolute
+    bottom: 93px
+    left: 20px
+  &_author
+    margin-top: 28px
+    font-weight: 600
+  &_work
+    font-size: 18px
