@@ -23,8 +23,7 @@ body
 
 h1
   font-weight: 600
-  font-size: 48px
-  line-height: 53px
+  font-size: 3rem
 
 .header
   max-width: 1164px
@@ -47,6 +46,7 @@ h1
       height: auto
     a
       text-decoration: none
+
 
 .page-desc
   margin-top: 18px
@@ -94,7 +94,6 @@ h1
     margin-bottom: 66px
 
 .video-block
-  height: 639px
   width: 100%
   margin: 0 auto 120px
 .feedback-block
@@ -109,9 +108,10 @@ h1
     margin-top: 24px
   &_bg
     margin-top: 149px
+
+
 .feedback-content
   padding: 39px 23px 28px 32px
-  max-width: 343px
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08)
   border-radius: 16px
   p
@@ -129,13 +129,13 @@ h1
     margin-bottom: 0
 .benefits-block
   background-color: $accent-blue
-  padding-bottom: 120px
+  padding-bottom: 100px
   &_title
     margin: 120px auto 56px
     color: #FFF
   &_protection
     height: 280px
-    max-width: 552px
+    max-width: 100vh
     border-radius: 16px
     background-color: #fff
 
@@ -159,7 +159,7 @@ h1
     border-radius: 16px
     background-color: #FAD192
     height: 280px
-    max-width: 552px
+    max-width: 100vh
     img
       border-radius: 16px
       align-self: flex-end
@@ -177,14 +177,41 @@ h1
     .card-text
       font-size: 18px
 #slider
-  margin: 16vh auto
+  margin-top: 59px
   min-width: 0
-  max-width: 1136px
+  position: relative
+  .slick-arrow
+    position: absolute
+    top: 50%
+    margin: -30px 0 0 0
+    font-size: 0
+    border: none
+    border-radius: 50%
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08)
+  .slick-prev
+    display: none
+  .slick-next
+    width: 64px
+    height: 64px
+    background-color: #fff
+    right: -33px
+    background-image: url("image/icons/arrow.png")
+    background-position: center
+    background-repeat: no-repeat
+
+.slick-track
+  padding-bottom: 20px
+
+.slick-slider
+  display: flex
+  justify-content: space-between
 .slider_title
-  margin-top: 32vh
+  margin-top: 113px
 .slider-card
   background-color: #fff
   height: 364px
+  width: 358px
+  margin-right: 30px
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08)
   border-radius: 16px
   &_desc
@@ -195,10 +222,107 @@ h1
     border: 2px solid #FFF
     border-radius: 50%
     position: absolute
-    bottom: 93px
+    bottom: 78px
     left: 20px
+  .border_ava
+    border: none
   &_author
-    margin-top: 28px
+    margin-top: 33px
     font-weight: 600
   &_work
     font-size: 18px
+.signup-block
+  margin-top: 100px
+  background-color: #FFF8EE
+  &_bg
+    height: 100%
+
+.form-block
+
+  button
+    padding: 20px 28px
+    font-size: 18px
+    height: 64px
+    border-radius: 8px
+    margin-top: 24px
+    width: 100%
+.form-group
+  h1
+    margin-top: 23vh
+
+  input
+    margin-top: 32px
+    padding: 20px 28px
+    font-size: 18px
+    height: 64px
+    border-radius: 8px
+  small
+    font-size: 15px
+    margin-top: 24px
+.faq-block_title
+  margin: 120px 0 51px 0
+#accordion
+  max-width: 752px
+  margin: 0 auto
+  .card
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08)
+.card-header
+  background-color: #FFF
+  border-bottom: none
+  padding: 26px 30px
+  line-height: 28px
+  &_title
+    font-size: 24px
+    font-weight: 600
+
+
+  button
+    color: #000000
+    font-weight: 600
+    font-size: 24px
+    line-height: 28px
+    border: none
+    background-color: #fff
+
+    &:focus
+      outline: none
+    span
+      margin-left: auto
+.card-body
+  color: rgba(0, 0, 0, 0.6)
+  font-weight: 500
+  font-size: 24px
+  padding-left: 30px
+  padding-top: 0
+
+.footer
+  margin-top: 120px
+  font-size: 18px
+.logo_footer
+  color: rgba(0, 0, 0, 0.4)
+.nav_block
+  a
+    line-height: 24px
+    color: rgba(0, 0, 0, 0.6)
+.contacts
+  font-weight: 600
+  color: #496ADC
+.icon_block
+  font-size: 26px
+.minus-active
+  display: none
+
+div[aria-expanded=true] .minus-active
+  display: block
+div[aria-expanded=false] .plus-active
+  display: block
+div[aria-expanded=true] .plus-active
+  display: none
+div[aria-expanded=false] .minus-active
+  display: none
+
+
+
+
+
+

@@ -5,245 +5,359 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://kit.fontawesome.com/95cd5d519c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <title>insprint</title>
 </head>
 <body>
-    <div class="container header">
-        <div class="row justify-content-between top-menu">
-            <div class="col-2 p-xl-0 top-menu_logo">
-                <img src="image/logo.svg" alt="">
-            </div>
-            <div class="col top-menu_list">
-                <div class="row  justify-content-start offset-1">
-                    <a href="" class="col-auto pl-4 ml-2">Как это работает?</a>
-                    <a href="" class="col-auto pl-2 pr-2">Фотографы</a>
-                    <a href="" class="col-auto pl-3 pr-2">Цены</a>
-                    <a href="" class="col-auto pl-3">Доставка и оплата</a>
-                </div>
-            </div>
-            <div class="col-2 top-menu_search mr-3 pr-1 align-middle">
-                <img src="image/icons/track-1.png" alt="">
-                <a href="">Отследить заказ</a>
+<div class="container header">
+    <div class="row justify-content-lg-between top-menu">
+        <div class="col col-lg-2 text-center pb-3 pb-lg-0 p-xl-0 top-menu_logo">
+            <img src="image/logo.svg" alt="">
+        </div>
+        <div class="w-100 d-lg-none"></div>
+        <div class="col m-auto pb-3 pb-lg-0 top-menu_list">
+            <div class="row  justify-content-center justify-content-lg-start offset-lg-1">
+                <a href="" class="col-auto">Как это работает?</a>
+                <a href="" class="col-auto">Фотографы</a>
+                <a href="" class="col-auto">Цены</a>
+                <a href="" class="col-auto">Доставка и оплата</a>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-8 text-center pl-0 mr-2 ">
-                <h1>Просто напечатать работу вашего любимого фотографа</h1>
-            </div>
-            <div class="col-7 page-desc text-center pl-0 mr-2">
-                <p>Печатайте и получайте фотографии ваших любимых фотографов прямо в руки</p>
-            </div>
-            <div class="col-7 pl-0 mr-2 text-center ">
-                <a class="btn btn-primary  btn-catalog " href="">Каталог фотографов</a>
-                <a class="btn btn-work ml-3" href="">Как мы работаем</a>
-            </div>
-            <div class="w-100"></div>
+        <div class="w-100 d-lg-none"></div>
+        <div class="col text-center col-lg-2 top-menu_search p-lg-0 align-middle">
+            <img src="image/icons/track-1.png" alt="">
+            <a href="">Отследить заказ</a>
         </div>
     </div>
-    <div class="container-fluid justify-content-center">
-        <div class="row p-0 ">
-            <div class="col pl-0 text-center">
-                <img src="image/photo_header.png"  class="img-fluid" alt="">
-            </div>
+    <div class="row justify-content-center">
+        <div class="col-10 col-lg-8 text-center">
+            <h1>Просто напечатать работу вашего любимого фотографа</h1>
         </div>
-        <div class="row justify-content-center middle-block">
-            <div class="wrap">
-                <div class="col pl-0 text-center middle-block_title">
-                    <h1>Как это работает?</h1>
-                </div>
-                <div class="w-100"></div>
-                <div class="col">
-                    <div class="row pl-0 justify-content-center middle-block_prof">
-                        <div class="col p-0 active text-center">
-                            <p>Для фотолюбителей</p>
-                        </div>
-                        <div class="col active p-0 text-center">
-                            <p>Для фотографов</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-100"></div>
-                <div class="row middle-block__position">
-                    <div class="col pl-0 text-center">
-                        <h3 class="middle-block_step">1. Выбираете фото</h3>
-                        <p>У нас большой выбор фотографов<br> и их прекрасных фотографий</p>
-                    </div>
-                    <div class="col pl-0 text-center">
-                        <h3 class="middle-block_step">2. Оплачиваете</h3>
-                        <p>Также у нас куча способов как это оплатить</p>
-                    </div>
-                    <div class="col pl-0 text-center">
-                        <h3 class="middle-block_step">3. Получаете заказ</h3>
-                        <p>Уже через 2 дня распечатанные фото окажутся у вас в руках</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w-100"></div>
-            <div class="wrap">
-                <div class="col p-0 video-block">
-                    <img src="image/video_preview.png" alt="">
-                </div>
-            </div>
+        <div class="col-10 col-lg-7 page-desc text-center pl-0 mr-2">
+            <p>Печатайте и получайте фотографии ваших любимых фотографов прямо в руки</p>
         </div>
-        <div class="row feedback-block justify-content-center">
-            <div class="wrap">
-                <div class="col text-center feedback-block_title">
-                    <h1>Отзывы</h1>
-                    <p class="feedback-block_desc">Для нашей компании самое важное – это общечеловеческие ценности и высокий уровень сервиса</p>
-                </div>
-                <div class="w-100"></div>
-                <div class="row justify-content-between text-center">
-                    <div class="col text-left">
-                        <div class="col feedback-content">
-                            <p>Спасибо большое за помощь и содействие!</p>
-                        </div>
-                        <div class="row feedback-ava justify-content-center align-items-center">
-                            <div class="col-auto pl-0">
-                                <img src="image/Ellipse2.png" alt="">
-                            </div>
-                            <div class="col">
-                                <p class="feedback-ava_name">Александра Селезнева</p>
-                                <span>фотограф</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col text-left">
-                        <div class="col-auto feedback-content">
-                            <p>Работа с сервисом приносит радость, потому что высочайший профессионализм, удобство, оперативность,<br> и просто приятные люди!</p>
-                        </div>
-                        <div class="row feedback-ava justify-content-start align-items-center">
-                            <div class="col-2 pr-2">
-                                <img src="image/Ellipse2-1.png" alt="">
-                            </div>
-                            <div class="col pl-4">
-                                <p class="feedback-ava_name">Лиза Семяновская</p>
-                                <span>фотолюбитель</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col text-left">
-                        <div class="col feedback-content">
-                            <p>Это супер крутая инструкция и вы делаете очень полезную вещь 🙂 Спасибо ❤️</p>
-                        </div>
-                        <div class="row feedback-ava justify-content-start align-items-center">
-                            <div class="col-2 pl-2">
-                                <img src="image/Ellipse2-2.png" alt="">
-                            </div>
-                            <div class="col pl-3">
-                                <p class="feedback-ava_name">Юрий Ставничий</p>
-                                <span>фотограф</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         <div class="w-100"></div>
-        <div class="col feedback-block_bg pl-0">
-            <img src="image/bg_middle.png" alt="">
+        <div class="col-10 col-lg-7 pl-0 mr-2 text-center ">
+            <a class="btn btn-primary  btn-catalog " href="">Каталог фотографов</a>
+            <a class="btn btn-work ml-3" href="">Как мы работаем</a>
+        </div>
+        <div class="w-100"></div>
+    </div>
+</div>
+<div class="container-fluid justify-content-center">
+    <div class="row p-0 ">
+        <div class="col pl-0 text-center">
+            <img src="image/photo_header.png" class="img-fluid" alt="">
         </div>
     </div>
- <div class="row benefits-block justify-content-start">
-         <div class="col  benefits-block_title text-center">
-             <h1>Преимущества</h1>
-         </div>
-     <div class="w-100"></div>
-     <div class="col wrap">
-         <div class="row  row-cols-1 justify-content-between">
-             <div class="col pr-0 mb-sm-4  mr-sm-auto ml-sm-auto card benefits-block_protection ">
-                 <img src="image/bg_img.png" alt="">
-                 <div class="card-img-overlay">
-                     <h3 class="card-title">Защита лицензионным соглашением</h3>
-                     <a href="" class="card-text">Узнать больше</a>
-                 </div>
-             </div>
-             <div class="col pr-0 mr-sm-auto ml-sm-auto card benefits-block_print">
-                 <img  src="image/bg_img2.png" alt="">
-                 <div class="card-img-overlay">
-                     <h3 class="card-title">Быстрая<br>и качественная печать</h3>
-                     <a href="" class="card-text">Узнать больше</a>
-                 </div>
-             </div>
-         </div>
-     </div>
- </div>
- <div class="row slider">
-     <div class="col pl-0 mr-3 slider_title text-center">
-         <h1>5000 фотографов уже с нами</h1>
-     </div>
-     <div class="w-100"></div>
-     <div id="slider">
-         <div class="slider-card">
-             <img src="image/photo_ava.png" alt="">
-             <div class="slider-card_desc">
-                 <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
-                 <h4 class="slider-card_author">Александра Селезнева</h4>
-                 <p class="slider-card_work">130 фотографий</p>
-             </div>
-         </div>
-         <div class="card slider-card">
-             <img src="image/photo_ava2.png" alt="">
-             <div class="slider-card_desc">
-                 <img class="slider-card_ava" src="image/ava_author.png" alt="">
-                 <h4 class="slider-card_author">Виктор Кострицкий</h4>
-                 <p class="slider-card_work">130 фотографий</p>
-             </div>
-         </div>
-         <div class="card slider-card">
-             <img src="image/photo_ava3.png" alt="">
-             <div class="slider-card_desc">
-                 <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
-                 <h4 class="slider-card_author">Юрий Ставничий</h4>
-                 <p class="slider-card_work">130 фотографий</p>
-             </div>
-         </div>
-         <div class="card slider-card">
-             <img src="image/photo_ava.png" alt="">
-             <div class="slider-card_desc">
-                 <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
-                 <h4 class="slider-card_author">Александра Селезнева</h4>
-                 <p class="slider-card_work">130 фотографий</p>
-             </div>
-         </div>
-         <div class="card slider-card">
-             <img src="image/photo_ava.png" alt="">
-             <div class="slider-card_desc">
-                 <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
-                 <h4 class="slider-card_author">Александра Селезнева</h4>
-                 <p class="slider-card_work">130 фотографий</p>
-             </div>
-         </div>
-         <div class="card slider-card">
-             <img src="image/photo_ava.png" alt="">
-             <div class="slider-card_desc">
-                 <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
-                 <h4 class="slider-card_author">Александра Селезнева</h4>
-                 <p class="slider-card_work">130 фотографий</p>
-             </div>
-         </div>
+    <div class="row justify-content-center middle-block">
+        <div class="wrap">
+            <div class="col pl-0 text-center middle-block_title">
+                <h1>Как это работает?</h1>
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+                <div class="row pl-0 justify-content-center middle-block_prof">
+                    <div class="col p-0 active text-center">
+                        <p>Для фотолюбителей</p>
+                    </div>
+                    <div class="col active p-0 text-center">
+                        <p>Для фотографов</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="row middle-block__position">
+                <div class="col-8 col-lg-4 m-auto pl-0 text-center">
+                    <h3 class="middle-block_step">1. Выбираете фото</h3>
+                    <p>У нас большой выбор фотографов<br> и их прекрасных фотографий</p>
+                </div>
+                <div class="col-8 col-lg-4 m-auto pl-0 text-center">
+                    <h3 class="middle-block_step">2. Оплачиваете</h3>
+                    <p>Также у нас куча способов как это оплатить</p>
+                </div>
+                <div class="col-8 col-lg-4 m-auto pl-0 text-center">
+                    <h3 class="middle-block_step">3. Получаете заказ</h3>
+                    <p>Уже через 2 дня распечатанные фото окажутся у вас в руках</p>
+                </div>
+            </div>
+        </div>
 
-     </div>
- </div>
+        <div class="w-100"></div>
+        <div class="wrap">
+            <div class="col p-0 video-block">
+                <img class="img-fluid" src="image/video_preview.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row feedback-block justify-content-center">
+        <div class="wrap">
+            <div class="col text-center feedback-block_title">
+                <h1>Отзывы</h1>
+                <p class="feedback-block_desc">Для нашей компании самое важное – это общечеловеческие ценности и высокий
+                    уровень сервиса</p>
+            </div>
+            <div class="row justify-content-between text-center">
+                <div class="col-12 col-md-6 col-lg-4 text-left">
+                    <div class="col feedback-content">
+                        <p>Спасибо большое за помощь и содействие!</p>
+                    </div>
+                    <div class="row feedback-ava justify-content-center align-items-center">
+                        <div class="col-auto pl-0">
+                            <img src="image/Ellipse2.png" alt="">
+                        </div>
+                        <div class="col">
+                            <p class="feedback-ava_name">Александра Селезнева</p>
+                            <span>фотограф</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-left">
+                    <div class="col-auto feedback-content">
+                        <p>Работа с сервисом приносит радость, потому что высочайший профессионализм, удобство,
+                            оперативность,<br> и просто приятные люди!</p>
+                    </div>
+                    <div class="row feedback-ava justify-content-start align-items-center">
+                        <div class="col-2 pr-2">
+                            <img src="image/Ellipse2-1.png" alt="">
+                        </div>
+                        <div class="col pl-4">
+                            <p class="feedback-ava_name">Лиза Семяновская</p>
+                            <span>фотолюбитель</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-left">
+                    <div class="col feedback-content">
+                        <p>Это супер крутая инструкция и вы делаете очень полезную вещь 🙂 Спасибо ❤️</p>
+                    </div>
+                    <div class="row feedback-ava justify-content-start align-items-center">
+                        <div class="col-2 pl-2">
+                            <img src="image/Ellipse2-2.png" alt="">
+                        </div>
+                        <div class="col pl-3">
+                            <p class="feedback-ava_name">Юрий Ставничий</p>
+                            <span>фотограф</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 feedback-block_bg">
+            <img class="img-fluid" src="image/bg_middle.png" alt="">
+        </div>
+    </div>
+    <div class="row benefits-block justify-content-start">
+        <div class="col  benefits-block_title text-center">
+            <h1>Преимущества</h1>
+        </div>
+        <div class="w-100"></div>
+        <div class="col wrap">
+            <div class="row  row-cols-1 justify-content-between">
+                <div class="col pr-0 mb-sm-4  mr-sm-auto ml-sm-auto card benefits-block_protection ">
+                    <img src="image/bg_img.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Защита лицензионным соглашением</h3>
+                        <a href="" class="card-text">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="col pr-0 mr-sm-auto ml-sm-auto card benefits-block_print">
+                    <img src="image/bg_img2.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Быстрая<br>и качественная печать</h3>
+                        <a href="" class="card-text">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row wrap">
+        <div class="col slider_title text-center">
+            <h1>5000 фотографов уже с нами</h1>
+        </div>
+        <div class="w-100"></div>
+        <div id="slider">
+            <div class="slider-card">
+                <img class="img-fluid" src="image/photo_ava.png" alt="">
+                <div class="slider-card_desc">
+                    <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
+                    <h4 class="slider-card_author">Александра Селезнева</h4>
+                    <p class="slider-card_work">130 фотографий</p>
+                </div>
+            </div>
+            <div class="slider-card">
+                <img class="img-fluid" src="image/photo_ava2.png" alt="">
+                <div class="slider-card_desc">
+                    <img class="slider-card_ava border_ava" src="image/ava_author.png" alt="">
+                    <h4 class="slider-card_author">Виктор Кострицкий</h4>
+                    <p class="slider-card_work">130 фотографий</p>
+                </div>
+            </div>
+            <div class="slider-card">
+                <img class="img-fluid" src="image/photo_ava3.png" alt="">
+                <div class="slider-card_desc">
+                    <img class="slider-card_ava" src="image/Ellipse2-2.png" alt="">
+                    <h4 class="slider-card_author">Юрий Ставничий</h4>
+                    <p class="slider-card_work">130 фотографий</p>
+                </div>
+            </div>
+            <div class="slider-card ">
+                <img class="img-fluid" src="image/photo_ava.png" alt="">
+                <div class="slider-card_desc">
+                    <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
+                    <h4 class="slider-card_author">Александра Селезнева</h4>
+                    <p class="slider-card_work">130 фотографий</p>
+                </div>
+            </div>
+            <div class="slider-card">
+                <img class="img-fluid" src="image/photo_ava.png" alt="">
+                <div class="slider-card_desc">
+                    <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
+                    <h4 class="slider-card_author">Александра Селезнева</h4>
+                    <p class="slider-card_work">130 фотографий</p>
+                </div>
+            </div>
+            <div class="slider-card">
+                <img class="img-fluid" src="image/photo_ava.png" alt="">
+                <div class="slider-card_desc">
+                    <img class="slider-card_ava" src="image/Ellipse2.png" alt="">
+                    <h4 class="slider-card_author">Александра Селезнева</h4>
+                    <p class="slider-card_work">130 фотографий</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row signup-block justify-content-center">
+        <div class="col wrap">
+            <div class="row justify-content-center">
+                <div class="col-auto col-sm-6 col-lg-5 col-xl-4 form-block">
+                    <form>
+                        <div class="form-group">
+                            <h1>Хочешь у нас разместиться?</h1>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp" placeholder="Ваша почта">
+                            <button type="submit" class="btn btn-primary">Хочу разместиться</button>
+                            <small id="emailHelp" class="form-text text-muted">Нажимая на кнопку, вы соглашаетесь с
+                                условиями обработки <a href="">персональных данных</a></small>
+                        </div>
+                    </form>
+                </div>
+                <div class="w-100  d-lg-none"></div>
+                <div class="col text-center offset-lg-1 pl-0 signup-block_bg">
+                    <img class="img-fluid" src="image/photo_user.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row faq-block wrap">
+        <div class="col text-center">
+            <h1 class="faq-block_title">Вопросы и ответы</h1>
+        </div>
+        <div class="w-100"></div>
+        <div class="col">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <div class="collapsed d-flex align-items-center justify-content-between"
+                                 data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+                                <h5 class="card-header_title mb-0">Как это работает?</h5>
+                                <span class="ml-auto"><img class="plus-active" src="image/icons/plus.png" alt=""><img
+                                        class="minus-active" src="image/icons/minus.png"></span>
+                            </div>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
+                            VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <div class="collapsed d-flex align-items-center justify-content-between"
+                                 data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
+                                <h5 class="card-header_title mb-0">Можно ли изменить условия?</h5>
+                                <span class="ml-auto"><img class="plus-active" src="image/icons/plus.png" alt=""><img
+                                        class="minus-active" src="image/icons/minus.png"></span>
+                            </div>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Нет. Из-за низкой стоимости работ нельзя поменять договор или отдельные условия сервиса.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <div class="collapsed d-flex align-items-center justify-content-between"
+                                 data-toggle="collapse" data-target="#collapseThree" aria-controls="collapseThree">
+                                <h5 class="card-header_title mb-0">Сколько мне заплатят за фотографии?</h5>
+                                <span class="ml-auto"><img class="plus-active" src="image/icons/plus.png" alt=""><img
+                                        class="minus-active" src="image/icons/minus.png"></span>
+                            </div>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Еще какой-то текст.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 justify-content-start">
+            <div class="col logo_footer">© 2020 insprint</div>
+            <div class="col nav_block pl-0">
+                <div class="col mb-3"><a href="">Как это работает?</a></div>
+                <div class="col mb-3"><a href="">Фотографы</a></div>
+                <div class="col mb-3"><a href="">Цены</a></div>
+                <div class="col mb-3"><a href="">Доставка и оплата</a></div>
+            </div>
+            <div class="col contacts">
+                <div class="col mb-3 pl-0 pl-lg-3">info@insprint.co</div>
+                <div class="col pl-0 pl-lg-3">+7 (916) 857 89 78</div>
+            </div>
+            <div class="col-4 col icon_block mt-2">
+                <div class="row">
+                    <div class="col text-lg-right text-left p-lg-0">
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col text-lg-right text-left p-lg-0 "><a href=""><i class="fa fa-facebook-official"
+                                                                                   aria-hidden="true"></i></a></div>
+                    <div class="col text-lg-right text-left p-lg-0"><a href=""><i class="fa fa-vk"
+                                                                                  aria-hidden="true"></i></a></div>
+                    <div class="col text-lg-right text-left p-lg-0">
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
- <script type="text/javascript">
-    $('#slider').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-    });
-</script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
